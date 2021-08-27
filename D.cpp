@@ -10,7 +10,7 @@ class D{
     void MD1();
     void MD2();
 };
-
+ 
 void D::MD1()
 {
   cout << "MD1";
