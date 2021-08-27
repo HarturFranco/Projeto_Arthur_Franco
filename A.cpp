@@ -12,6 +12,7 @@ class A{
     void setA2(float value);
     void MA1();
     void MA2();
+    void MA3();
 };
 
 void A::MA1()
@@ -22,6 +23,11 @@ void A::MA1()
 void A::MA2()
 {
   cout << "MA2"
+}
+
+void A::MA3()
+{
+  cout << "Alteração a classe A partir do clone"
 }
 
 int A::getA1()
