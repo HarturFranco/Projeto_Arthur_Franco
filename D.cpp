@@ -9,11 +9,8 @@ class D{
   public:
     void MD1();
     void MD2();
-<<<<<<< HEAD
     void MD3();
-=======
     void MD4();
->>>>>>> ecebf570b289ba97d985a16e50b2c280cb29554b
 };
  
 void D::MD1()
@@ -26,14 +23,14 @@ void D::MD2()
   cout << "MD2";
 }
 
-<<<<<<< HEAD
 void MD3(){
     cout << "MD3";
-=======
+
+}
+
 void D::MD4()
 {
   cout << "MD4";
->>>>>>> ecebf570b289ba97d985a16e50b2c280cb29554b
 }
 
 string D::getD1()
