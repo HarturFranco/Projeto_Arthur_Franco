@@ -9,6 +9,7 @@ class D{
   public:
     void MD1();
     void MD2();
+  
     void MD4();
 };
  
@@ -21,6 +22,7 @@ void D::MD2()
 {
   cout << "MD2";
 }
+
 
 void D::MD4()
 {
